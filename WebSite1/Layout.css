@@ -1,33 +1,21 @@
-﻿body {
+﻿/*Jeffrey Martin 
+  Project 3 Tabs 
+  This is the css file used for the program. It is a single page program used do demonstrate tabs.*/
 
-}
+/* --- Predefined Tags CSS --- */
+
+h1 {
+            font-family: Impact;
+        }
+
+/* --- CssClass CSS --- */
+
 .auto-style1 {
             width: 200px;
             height: 200px;
         }
 .auto-style2 {
             text-align: center;
-        }
-h1 {
-            font-family: Impact;
-        }
-#banner {
-            text-align: center;
-        }
-
-#Tab1Panel {
-            background-color: #FF0066;
-            font-family: "Courier New", Courier, monospace;
-       }
-
-#Tab2Panel {
-            background-color: #0066FF;
-            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-        }
-
-#Tab3Panel {
-            background-color: #009933;
-            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
         }
 
 .Panel {
@@ -49,3 +37,23 @@ h1 {
             font-weight:bold
         }
 
+/* --- ID CSS --- */
+
+#banner {
+            text-align: center;
+        }
+
+#Tab1Panel {
+            background-color: #FF0066;
+            font-family: "Courier New", Courier, monospace;
+       }
+
+#Tab2Panel {
+            background-color: #0066FF;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        }
+
+#Tab3Panel {
+            background-color: #009933;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+        }
